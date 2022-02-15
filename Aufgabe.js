@@ -1,9 +1,6 @@
 function sumOfNumbers(numbers) {
 	return numbers.reduce((previous, current) => previous + current, 0);
 }
-
-['H', 'e'];
-
 function convertTextToNumbers(text) {
 	const alphabets = {
 		a: 1,
@@ -44,11 +41,11 @@ function convertTextToNumbers(text) {
 
 const testCases = [' ', 'B', 'C', 'Ibrahim , , ,', 'Test', 'test', 'BY'];
 
-const converted = testCases.map(testCase => ({
-    text: testCase,
-    total: convertTextToNumbers(testCase)
-}) )
+const converted = testCases.map((testCase) => ({
+	text: testCase,
+	total: convertTextToNumbers(testCase),
+}));
 
-console.log(converted)
+console.log(converted);
 
-module.exports= convertTextToNumbers
+module.exports = convertTextToNumbers;
