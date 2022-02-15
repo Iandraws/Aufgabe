@@ -1,0 +1,23 @@
+{
+  "name": "aufgabe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Aufgabe.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iandraws/Aufgabe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iandraws/Aufgabe/issues"
+  },
+  "homepage": "https://github.com/Iandraws/Aufgabe#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
